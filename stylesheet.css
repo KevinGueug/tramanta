@@ -133,25 +133,7 @@ b{
     border-radius: 4px;
 }
 
-/*
-.banner-line{
-    width:1000px;
-    height:4px;
-    background: radial-gradient( rgb(235, 235, 235)7%, rgb(87, 87, 87) 70%);
-    margin: auto;
-    border-radius: 0px 0px 4px 4px;
-}
 
-.banner-line3{
-    margin-top:20px;
-    width:1000px;
-    height:4px;
-    background: radial-gradient( rgb(235, 235, 235)7%, rgb(87, 87, 87) 70%);
-    background: rgb(194, 194, 194);
-    margin: auto;
-    border-radius: 4px 4px 0px 0px;
-    }
-*/
 .banner-line2{
 
     margin: auto;
@@ -215,9 +197,6 @@ a:active{
     width:200px;
     height:200px;
 }
-
-
-
 h2{
     margin: 5px;
     /*text-align:left;*/
@@ -241,6 +220,12 @@ a{
     font-weight: 10px;
 }
 
+.iframe{
+    width:"560px"; 
+    height:="315px";
+}
+
+
 
 .albums{
 }
@@ -249,8 +234,6 @@ a{
 .test{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-
-
 }
 
     .aa{
@@ -305,3 +288,16 @@ a{
         width:90%;
         left:5%;
     }
+
+    .ulnav{
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        list-style-type: none;
+        font-size: medium;
+        color:rgb(14, 14, 14);
+        width:90%;
+        margin: 0 auto;
+
+
+}
