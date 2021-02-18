@@ -120,7 +120,10 @@ b{
     margin:0;
     padding:0;
 }
-
+.youtu{
+    width:560px;
+    height:340px;
+    }
 .blogli{
     text-align: left;
     margin-left: 15px;
@@ -264,7 +267,7 @@ a{
 
 /*Responsive*/
 
-@media only screen and (max-width: 760px) { 
+@media only screen and (max-width: 800px) { 
 
     .main{
         width:90%;
